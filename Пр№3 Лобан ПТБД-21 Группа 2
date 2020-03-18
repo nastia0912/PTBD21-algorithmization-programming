@@ -1,0 +1,36 @@
+http://cpp.sh/5etal
+
+/ ПТБД-21 Лобан Група №2
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include<cstdlib>
+
+using namespace std;
+int main()
+{int a, b, x, y;
+scanf ( " %d  %d  %d",&a,&b,&x); 
+y=((a<=x)&&(x<=b)&&(a>0)&&(b>0)&&(x>0)&&((a+b)>x)&&((a+x)>b)&&((b+x)>a));
+printf("\ answer=%d \n", y); 
+system ("pause"); 
+return 0; 
+}
+
+cpp.sh/8jnme
+
+// ПТБД-21 Лобан Група №2
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include<cstdlib>
+
+using namespace std;
+int main()
+{int a, b, x, y;
+scanf ( " %d  %d  %d",&a,&b,&x); 
+y=((a<=x)&&(x<=b));
+printf("\ answer=%d \n", y); 
+system ("pause"); 
+return 0; 
+
+}
